@@ -43,8 +43,8 @@ namespace TrainingExamDb.Controllers
             return Ok(response);
         }
 
-        /*[HttpPut("/update-user")]
-        public async Task<ActionResult> Put([FromBody] UpdateUserRequest model, [FromServices] IValidator<UpdateUserRequest> validator)
+        [HttpPut("/update-cinema")]
+        public async Task<ActionResult> Put([FromBody] UpdateCinemaRequest model, [FromServices] IValidator<UpdateCinemaRequest> validator)
         {
             var validationResult = await validator.ValidateAsync(model);
 
@@ -58,6 +58,6 @@ namespace TrainingExamDb.Controllers
                 validationResult.AddToModelState(ModelState);
                 return ValidationProblem(ModelState);
             }
-        }*/
+        }
     }
 }

@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetCinemaHandler).Assembly));
 builder.Services.AddValidatorsFromAssemblyContaining<NewCinemaValidator>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateCinemaValidator>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
