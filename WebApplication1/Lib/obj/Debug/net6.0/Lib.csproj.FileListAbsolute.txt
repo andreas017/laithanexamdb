@@ -1,0 +1,15 @@
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\bin\Debug\net6.0\Lib.deps.json
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\bin\Debug\net6.0\Lib.dll
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\bin\Debug\net6.0\Lib.pdb
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.csproj.AssemblyReference.cache
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.AssemblyInfoInputs.cache
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.AssemblyInfo.cs
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.csproj.CoreCompileInputs.cache
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.dll
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\refint\Lib.dll
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.pdb
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\ref\Lib.dll
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\bin\Debug\net6.0\Training.Sql.Entity.dll
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\bin\Debug\net6.0\Training.Sql.Entity.pdb
+C:\Users\andsk\Desktop\INTERN\Training\TrainingExamDb\WebApplication1\Lib\obj\Debug\net6.0\Lib.csproj.CopyComplete
