@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace Lib.ResponseModel
 {
-    public class GetCinemaResponse
+    public class GetTheatreResponse
     {
         public int Id { get; set; }
 
         public string Name { get; set; } = string.Empty;
 
-        public string Address { get; set; } = string.Empty;
+        public int CinemaId { get; set; }
 
-        public Guid? BlobId { get; set; }
-        public string FileName { get; set; } = string.Empty;
-        public string FileUrl { get; set; } = string.Empty;
+        public int TheatreTypeId { get; set; }
     }
 }

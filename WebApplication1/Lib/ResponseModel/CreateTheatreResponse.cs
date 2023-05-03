@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lib.ResponseModel
 {
-    public class RegisterTheatreResponse
+    public class CreateTheatreResponse
     {
-        public string Success { get; set; } = "";
+        public string Response { get; set; } = "";
     }
 }

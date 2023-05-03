@@ -8,9 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lib.RequestModel
 {
-    public class GetCinemaRequest : IRequest<GetCinemaOffsetPaginationResponse>
+    public class GetTheatreRequest : IRequest<List<GetTheatreResponse>>
     {
-        public int Limit { get; set; }
-        public int Offset { get; set; }
     }
 }

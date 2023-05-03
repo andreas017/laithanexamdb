@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Lib.RequestModel
 {
-    public class RegisterTheatreRequest : IRequest<RegisterTheatreResponse>
+    public class CreateTheatreRequest : IRequest<CreateTheatreResponse>
     {
         public string Name { get; set; } = string.Empty;
 

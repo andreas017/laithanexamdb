@@ -1,10 +1,13 @@
 ﻿using FluentValidation;
 using FluentValidation.AspNetCore;
+using Lib.Interface;
 using Lib.RequestModel;
 using Lib.ResponseModel;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Training.Sql.Entity.Entity;
 
 namespace TrainingExamDb.Controllers
 {
@@ -58,6 +61,17 @@ namespace TrainingExamDb.Controllers
                 validationResult.AddToModelState(ModelState);
                 return ValidationProblem(ModelState);
             }
+        }
+
+        [HttpGet("offset-pagination")]
+        public async Task<ActionResult<GetCinemaOffsetPaginationResponse>> Get(int limit, int offset)
+        {
+            var response = await _mediator.Send(new GetCinemaRequest
+            {
+                Limit = limit,
+                Offset = offset
+            });
+            return Ok(response);
         }
     }
 }
